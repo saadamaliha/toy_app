@@ -41,7 +41,7 @@ group :development, :test do
 end
 
 group :development do
-  gem "web-console", "4.2.0"
+  gem "web-console", "4.2.1"
 end
 
 group :test do
