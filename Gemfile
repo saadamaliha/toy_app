@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "3.4.2"
+ruby "3.2.2"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.2.2", ">= 7.2.2.1"
@@ -37,7 +37,7 @@ gem "bootsnap", require: false
 
 group :development, :test do
   gem "sqlite3", "1.4.2"
-  gem "debug", "1.5.0", platforms: %i[ mri mingw x64_mingw ]
+  gem "debug", "~> 1.6", platforms: %i[ mri mingw x64_mingw ]
 end
 
 group :development do
