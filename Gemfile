@@ -36,7 +36,7 @@ gem "bootsnap", require: false
 # gem "image_processing", "~> 1.2"
 
 group :development, :test do
-  gem "sqlite3", "1.4.2"
+  gem "sqlite3", "2.6.0"
   gem "debug", "~> 1.6", platforms: %i[ mri mingw x64_mingw ]
 end
 
