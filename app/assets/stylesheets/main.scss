@@ -1,0 +1,19 @@
+body{
+  background-color: red !important;
+}
+.card, .btn-group {
+	margin-top: 15px !important;
+}
+.navbar-icon {
+	max-height: 30px;
+}
+
+.icon-circle {
+  display: inline-flex;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+

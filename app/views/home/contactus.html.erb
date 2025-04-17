@@ -1,2 +1,60 @@
-<h1>Home#contactus</h1>
-<p>Find me in app/views/home/contactus.html.erb</p>
+<!-- app/views/pages/contact.html.erb -->
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-8 text-center">
+      <h1 class="display-5 fw-bold mb-4">
+        <i class="bi bi-headset me-2"></i>Contact Us
+      </h1>
+      <p class="lead mb-5">Get in touch with our team</p>
+      
+      <div class="row g-4">
+        <!-- Phone Card -->
+        <div class="col-md-6">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body p-4">
+              <div class="icon-circle bg-primary bg-opacity-10 text-primary mb-3">
+                <i class="bi bi-telephone fs-2"></i>
+              </div>
+              <h3 class="h5">Call Us</h3>
+              <p class="mb-1">
+                <a href="tel:+1234567890" class="text-decoration-none fs-5">+1 (234) 567-890</a>
+              </p>
+              <small class="text-muted">Available 9am-5pm EST</small>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Email Card -->
+        <div class="col-md-6">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body p-4">
+              <div class="icon-circle bg-primary bg-opacity-10 text-primary mb-3">
+                <i class="bi bi-envelope fs-2"></i>
+              </div>
+              <h3 class="h5">Email Us</h3>
+              <p class="mb-1">
+                <a href="mailto:contact@toyapp.com" class="text-decoration-none fs-5">contact@toyapp.com</a>
+              </p>
+              <small class="text-muted">Response within 24 hours</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Optional Map -->
+      <div class="mt-5">
+        <div class="ratio ratio-16x9 bg-light rounded">
+          <iframe src="https://www.google.com/maps/embed?..." 
+                  class="rounded"
+                  allowfullscreen="" 
+                  loading="lazy">
+          </iframe>
+        </div>
+        <p class="mt-2 text-muted">
+          <i class="bi bi-geo-alt-fill"></i> 123 App Street, Tech City
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+

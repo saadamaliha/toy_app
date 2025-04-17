@@ -5,6 +5,8 @@ class HomeController < ApplicationController
   end
 
   def about
+    @user_count = User.count
+    @post_count = Micropost.count
   end
 
   def contactus
